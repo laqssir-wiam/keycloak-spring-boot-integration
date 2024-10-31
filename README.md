@@ -22,7 +22,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
     ```bash
-    git clone git@github.com:ali-bouali/keycloak-integration-with-spring-boot-3.git
+    git clone git@github.com/laqssir-wiam/keycloak-spring-boot-integration.git
+
     ```
 2. Navigate into the project directory:
     ```bash
@@ -44,7 +45,7 @@ These instructions will get you a copy of the project up and running on your loc
     docker-compose up -d
     ```
 2. Navigate to [Keycloak Admin UI Console](http://localhost:9090 "Keycloak Admin UI Console")
-3. Create a new Real and name ut ```Alibou``` or update the ```application.yml``` file and specify your Realm name
+3. Create a new Real and name ut ```wiam``` or update the ```application.yml``` file and specify your Realm name
 4. Create Roles
 5. Create Users
 6. Assign roles to users
